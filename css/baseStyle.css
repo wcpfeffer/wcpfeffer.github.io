@@ -2,3 +2,10 @@
 float: left;
 }
 
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+

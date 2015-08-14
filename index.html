@@ -52,12 +52,9 @@
 			  	<li class=""><a class="btn btn-block btn-social btn-github left" href="http://www.github.com/wcpfeffer" style="width: 200px; margin: 2px; margin-left: 2px;" ><i class="fa fa-github"></i>My GitHub</a></li><!--
 			    --><li class=""><a class="btn btn-block btn-social btn-linkedin" href="http://www.linkedin.com/in/wcpfeffer" style="width: 200px; margin: 2px; margin-left: 0px;"><i class="fa fa-linkedin"></i>Connect on LinkedIn</a></li>
 			</ul>
-			
 
 		</div>
-		 
-		  
-		  
+
 		</div>
 			  
     </div>
@@ -69,12 +66,12 @@
         <div class="col-md-4">
           <h2>VoIP & Instant Messenger</h2>
           <p>This is a personal project that started from a general interest in developing an instant messaging system when I first started programming. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="#messenger" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>Prov. Reconstruction</h2>
           <p>This tool aims to reconstruct data provenance records through semantic analysis of documents. It focuses on news article provenance links and provenance links between files in git repositories.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="#ProvReconstruction" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
           <h2>ChangeTrac</h2>
@@ -83,7 +80,7 @@
         </div>
       </div>
 	  
-	        <div class="row">
+	  <div class="row">
         <div class="col-md-4">
           <h2>TraceIT</h2>
           <p>TraceIt is an android game that challenges users to trace shapes in a short time window. 
@@ -102,7 +99,140 @@
         </div>
       </div>
 
-      <hr>
+    <hr class="featurette-divider" style="margin-top: 80px;">
+	
+	<div class="container" style="font-size: 16px;">
+
+		<p id="messenger">
+		<div class="row" style="margin-bottom: 10px;">
+			<div class="col-md-4">
+				<h3>VoIP & Instant Messenger</h3>
+			</div>
+			<div class="col-md-3">
+				<h3><span class="label label-default">Java</span> <span class="label label-warning">JavaFX</span> <span class="label label-success">CSS</span> </h3>
+			</div>
+		</div>
+
+		<img class="img-thumbnail" data-toggle="modal" data-target="#msgerLogin" src="images/messenger_login.png" style="width: 30%; height: 30%;">
+		<div id="msgerLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+					<div class="modal-body">
+						<img src="images/messenger_login.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		
+		<img class="img-thumbnail" data-toggle="modal" data-target="#msgerLoggedIn" src="images/messenger_loggedin.png" style="width: 30%; height: 30%;">
+		<div id="msgerLoggedIn" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+					<div class="modal-body">
+						<img src="images/messenger_loggedin.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		</p>
+		
+		<div >
+		
+		<p>
+		<b> Currently In Development </b>
+		</p>
+		
+		<p>
+		This is a personal project that started from a general interest in developing an instant messaging system when I first started programming. It started as a C# basic messaging system, and evolved over time. We made the switch to Java to have a wider range of system support.
+		</p>
+		
+		<p>
+		Implemented:
+		<ul>
+			<li>GUI (in JavaFX)</li>
+			<li>Peer to Peer Calling (via UDP hole-punching)</li>
+			<li>Instant Messaging</li>
+			<li>Encryption</li>
+			<li>Database</li>
+		</ul>
+		<p>
+		
+		<p>
+		This is an audio and text based communication system. This project uses a client/server architecture, and gave me experience with networking, multi-threading, and porting from C# to Java.
+		</p>
+		
+		<br>
+		<b>Co-Developer:</b>Nathan Duncan
+		</p>
+		
+		</div>
+
+	</div>
+	
+		<hr class="featurette-divider" style="margin-top: 80px;">
+		
+		<div id="ProvReconstruction" style="font-size: 16px;">
+		
+		<div class="row" style="margin-bottom: 10px;">
+			<div class="col-md-4">
+				<h3>Data Provenance Reconstruction</h3>
+			</div>
+			<div class="col-md-3">
+				<h3><span class="label label-default">Java</span> <span class="label label-warning">JavaFX</span> </h3>
+			</div>
+		</div>
+		
+		<p>
+		<b> 2015 </b>
+		</p>
+		
+		<p>
+		This tool aims to reconstruct data provenance records through semantic analysis of documents. It focuses on news article provenance links and provenance links between files in git repositories.  We assume this information has been lost, and attempt to recover provenance records as precisely as possible. 
+		</p>
+		
+		<p>
+		This project was based off of <a href="http://www.data2semantics.org/prov-reconstruction-challenge/">a challenge from the provenance research community</a>.
+		
+		</p>
+		
+		<p>
+		My part was a continuation of work done by graduate students. I improved the reconstruction process by improving the foundational code, and implementing semantic analysis techniques such as cosine similarity. 
+		</p>
+		
+		<p>
+		Developed a GUI and two automation tools to collect datasets to test the reconstruction process.
+		</p>
+
+	</div>
+	
+	<hr class="featurette-divider" style="margin-top: 80px;">
+	
+		<div id="ChangeTrac">
+
+		<div class="row" style="margin-bottom: 10px;">
+			<div class="col-md-2">
+				<h3>ChangeTrac</h3>
+			</div>
+			<div class="col-md-3">
+				<h3><span class="label label-info">C#</span></h3>
+			</div>
+		</div>
+
+		<img class="img-thumbnail" data-toggle="modal" data-target="#changeTracBanner" src="images/changetrac_banner.png" style="width: 30%; height: 30%;">
+		<div id="changeTracBanner" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+					<div class="modal-body">
+						<img src="images/changetrac_banner.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		
+		<img class="img-thumbnail" data-toggle="modal" data-target="#changeTracLog" src="images/changetrac_log.png" style="width: 30%; height: 30%;">
+		<div id="changeTracLog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+					<div class="modal-body">
+						<img src="images/changetrac_log.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
+
+	</div>
 
       <footer>
         <p></p>
