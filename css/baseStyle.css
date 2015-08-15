@@ -2,10 +2,27 @@
 float: left;
 }
 
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-  img {
-    width: auto;
-    height: auto;
-  }
+img {
+	max-width: 75%;
+	max-height: 75%;
 }
 
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+.content-spacer {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.bottom-spacer {
+	margin-bottom: 5px;
+}
+
+.image-spacer {
+	margin-bottom: 10px;
+}
