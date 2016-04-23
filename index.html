@@ -124,20 +124,39 @@
 
     </div>
 
-    <div class="image-spacer">
+    <div id="messenger-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
 
-        <img class="img-thumbnail" data-toggle="modal" data-target="#msgerLogin" src="images/messenger_login.png" style="width: 30%; height: 30%;">
-        <div id="msgerLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/messenger_login.png" class="img-responsive">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/messenger_login.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Login Window</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/messenger_loggedin.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Conversation Window</h3>
+                </div>
+            </div>
         </div>
 
-        <img class="img-thumbnail" data-toggle="modal" data-target="#msgerLoggedIn" src="images/messenger_loggedin.png" style="width: 30%; height: 30%;">
-        <div id="msgerLoggedIn" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/messenger_loggedin.png" class="img-responsive">
-        </div>
-    </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#messenger-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#messenger-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div> <!-- Carousel -->
 
-
+    <p></p>
     <div>
         <p>This is a personal project that started from a general interest in developing an instant messaging system when I first started programming. It started as a C# basic messaging system, and evolved over time. We made the switch to Java to have a wider range of system support.</p>
 
@@ -194,44 +213,74 @@
         </div>
     </div>
 
-    <div class="image-spacer">
-        <img class="img-thumbnail" data-toggle="modal" data-target="#admin_yearlyreport" src="images/admin_yearlyreport.png" style="width: 30%; height: 30%;">
-        <div id="admin_yearlyreport" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/admin_yearlyreport.png" class="img-responsive">
+    <div id="bootstore-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/admin_yearlyreport.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Sales Stats</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/add_book.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Inventory Control</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/previous_orders.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Customer Orders</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/home.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Landing Page</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/cart.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Cart Page</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/account.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>User Account</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/product_page.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Product Page</h3>
+                </div>
+            </div>
         </div>
 
-        <img class="img-thumbnail" data-toggle="modal" data-target="#addBook" src="images/add_book.png" style="width: 30%; height: 30%;">
-        <div id="addBook" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/add_book.png" class="img-responsive">
-        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#bootstore-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#bootstore-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div> <!-- Carousel -->
 
-        <img class="img-thumbnail" data-toggle="modal" data-target="#previous_orders" src="images/previous_orders.png" style="width: 30%; height: 30%;">
-        <div id="previous_orders" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/previous_orders.png" class="img-responsive">
-        </div>
-
-        <img class="img-thumbnail" data-toggle="modal" data-target="#home" src="images/home.png" style="width: 30%; height: 30%;">
-        <div id="home" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/home.png" class="img-responsive">
-        </div>
-
-        <img class="img-thumbnail" data-toggle="modal" data-target="#cart" src="images/cart.png" style="width: 30%; height: 30%;">
-        <div id="cart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/cart.png" class="img-responsive">
-        </div>
-
-        <img class="img-thumbnail" data-toggle="modal" data-target="#account" src="images/account.png" style="width: 30%; height: 30%;">
-        <div id="account" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/account.png" class="img-responsive">
-        </div>
-
-        <img class="img-thumbnail" data-toggle="modal" data-target="#product_page" src="images/product_page.png" style="width: 30%; height: 30%;">
-        <div id="product_page" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/product_page.png" class="img-responsive">
-        </div>
-
-    </div>
-
+    <p></p>
     <p>This website was part of my web programming class project. We were tasked to create a fully functional (minus payments) book store website. </p>
     <p>Implemented (front & back end): 
         <ul>
@@ -312,22 +361,41 @@
         </div>
     </div>
 
-    <div class="image-spacer">
-        <img class="img-thumbnail" data-toggle="modal" data-target="#changeTracBanner" src="images/changetrac_banner.png" style="width: 30%; height: 30%;">
-        <div id="changeTracBanner" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/changetrac_banner.png" class="img-responsive">
+
+    <div id="changetrac-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/changetrac_banner.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Login Window</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/changetrac_log.png" alt="...">
+                <div class="carousel-caption">
+                    <h3>Conversation Window</h3>
+                </div>
+            </div>
         </div>
 
-        <img class="img-thumbnail" data-toggle="modal" data-target="#changeTracLog" src="images/changetrac_log.png" style="width: 30%; height: 30%;">
-        <div id="changeTracLog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <img src="images/changetrac_log.png" class="img-responsive">
-        </div>
-    </div>
-    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#changetrac-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#changetrac-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div> <!-- Carousel -->
 
     <div>
-
-        <p><b>  </b></p>
+        <p></p>
         <p>ChangeTrac is a research tool developed to capture changes made to Microsoft Excel spreadsheets. This tool is a Microsoft Excel Add-in. It allows the user to record sessions in which they are actively changing data. During these recording sessions, a user can make notes on what they are changing. After a user finishes recording, they can view a log showing what exactly changed. This tool can also roll back these changes, and display the information in a visual format, making it easy to break down all the changes made during a recorded session.</p>
         <p>I was responsible for adding additional features, collecting user feedback, and revising the tool based on the feedback received. I also implemented a multi-cell tracking technique that allowed tracking changes over multiple cells at the same time, and was responsible for refactoring the entire code base.</p>
 
@@ -342,6 +410,16 @@
 </footer>
 </div> <!-- /container -->
 
+    <style>
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+        .carousel-control {
+            background-image: none !important;
+            color: black !important;
+            width: 5% !important;
+        }
+    </style>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
