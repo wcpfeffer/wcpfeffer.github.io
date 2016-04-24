@@ -158,22 +158,9 @@
 
     <p></p>
     <div>
-        <p>This is a personal project that started from a general interest in developing an instant messaging system when I first started programming. It started as a C# basic messaging system, and evolved over time. We made the switch to Java to have a wider range of system support.</p>
-
-        <p>Implemented:
-            <ul>
-             <li>GUI (in JavaFX)</li>
-             <li>Peer to Peer Calling (via UDP hole-punching)</li>
-             <li>Instant Messaging</li>
-             <li>Encryption</li>
-             <li>Database</li>
-         </ul>
-     </p>
-
-     <p>This is an audio and text based communication system. This project uses a client/server architecture, and gave me experience with networking, multi-threading, and porting from C# to Java.</p>
-
-     <br>
-     <p><b>Co-Developer:</b> Nathan Duncan </p>
+        <p>This roots of this project come from when I initially started programming. I was interested in learning about networking, and using client/server architectures, so I started developing a simple chat application in C#. Over time, this project evolved. It was transitioned to Java in order to have a wider support of systems, the backend components were restructured to be more robust and adhere to software practices learned in school, and the GUI was redesigned using a newer library called JavaFX. </p>
+        <p>In addition to the restructuring, I implemented peer to peer (P2P) calling using a technique called UDP hole-punching or NAT punchthrough. This technique allows two clients to connect to each other without the need to set up port forwarding. Two clients connect to a centralized server, where they expose their external ip and ports. The server relays this information to the clients wanting to connect to each other, and each individual client is able to connect using the ip/port of the opposing client that was provided by the server. This part of the project gave me a deeper understanding of networking, and exposed me to implementation details of various technologies used to create P2P connections.</p>
+        <p>I was also responsible for creating the database for this project, which primarily contains information about users. I added basic encryption to both the P2P calling and instant messaging using AES encryption.</p>
 
  </div>
 
@@ -281,22 +268,9 @@
     </div> <!-- Carousel -->
 
     <p></p>
-    <p>This website was part of my web programming class project. We were tasked to create a fully functional (minus payments) book store website. </p>
-    <p>Implemented (front & back end): 
-        <ul>
-            <li>Product Page</li>
-            <li>Browsing Page</li>
-            <li>Buying</li>
-            <li>Searching</li>
-            <li>Admin Functionality</li>
-            <li>Cart Functionality</li>
-            <li>Product Reviews</li>
-            <li>Database Design/Implementation</li>
-            <li>Site UI Design</li>
-        </ul>
-    </p>
-    <p>The project was restricted to only using the technology stack used.</p>
-    
+    <p>This website was part of my web programming class project. We were tasked with developing a website to sell books, and restricted to using a java backend (hosted by a tomcat server), JavaScript, HTML, and CSS. This was my first venture into web development, and exposed me to a web client/server architecture. </p>
+    <p>I implemented the backend using Java and JSP, including database implementation. The database was used for storing customer and book records. I was responsible for the front end UI design for all of the pages on the website. I created and tied in the following pages to the backend logic: pages for products, browsing, creating reviews, admin control, user shopping carts, and customer user account controls. This project was completed over the course of a few weeks, so some functionality was limited due to time constraints.</p>
+    <p>Due to restrictions of the project, no frameworks were used. </p>
 </div>
 
 <hr class="featurette-divider content-spacer">
