@@ -37,356 +37,52 @@
 
 </head>
 
-<body>
+<body style="background-color: rgba(50, 50, 50, 0.99);">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-              <a class="navbar-brand" style="color: white;" href="http://www.wcpfeffer.com/">William C. Pfeffer</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
+                <a class="navbar-brand" style="color: white;" href="http://www.wcpfeffer.com/">William C. Pfeffer</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
 
-          </div><!--/.navbar-collapse -->
-      </div>
-  </nav>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </nav>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron" style="background-color: rgba(54, 54, 54, 0.99);">
+  <div class="jumbotron" style="background-color: rgba(45, 45, 45, 0.99);">
+    <div style="display: grid; grid-auto-flow: column;  grid-column-gap: 50px; justify-content: center;">
 
-    <div class="container">
-
-        <div >
-         <h1 style="color: white;" >Project Portfolio</h1>
-         <p style="color: white;">A showcase of various projects I have worked on over the past few years. </p><br>
-
-         <ul class="nav-pills" style="list-style-type: none; padding: 0;">
-	  	<li class=""><a class="btn btn-block btn-social btn-github left" href="http://www.github.com/wcpfeffer" style="width: 130px; margin: 2px; margin-left: 2px;" ><i class="fa fa-github"></i>My GitHub</a></li><!--
-   --><li class=""><a class="btn btn-block btn-social btn-linkedin" href="http://www.linkedin.com/in/wcpfeffer" style="width: 200px; margin: 2px; margin-left: 0px;"><i class="fa fa-linkedin"></i>Connect on LinkedIn</a></li>
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="container">
-
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>VoIP & Instant Messenger</h2>
-            <p>This is a personal project that started from a general interest in developing an instant messaging system when I first started programming. </p>
-            <p><a class="btn btn-default" href="#messenger" role="button">View details &raquo;</a></p>
+        <div class="flex-center">
+            <img style="border-radius: 50%; max-width: 250px;" src="images/profile.jpeg"/>
         </div>
-        <div class="col-md-4">
-            <h2>Prov. Reconstruction</h2>
-            <p>This tool aims to reconstruct data provenance records through semantic analysis of documents. It focuses on news article provenance links and provenance links between files in git repositories.</p>
-            <p><a class="btn btn-default" href="#ProvReconstruction" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>ChangeTrac</h2>
-            <p>ChangeTrac is a research tool developed to capture changes made to Microsoft Excel spreadsheets. </p>
-            <p><a class="btn btn-default" href="#ChangeTrac" role="button">View details &raquo;</a></p>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>TraceIt</h2>
-            <p>TraceIt is an android game that challenges users to trace shapes in a short time window. 
-            </p>
-            <p><a class="btn btn-default" href="#TraceIt" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Book Store</h2>
-            <p> This website was part of my web programming class project. It is a fully functional, built from the ground up, book store web site.</p>
-            <p><a class="btn btn-default" href="#Bookstore" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>8 Puzzle Solver</h2>
-            <p> This was a class project for my Intro to A.I. class. I implemented various heuristics for solving an 8 puzzle, in order to compare the efficiencies/deficiencies.</p>
-            <p><a class="btn btn-default" href="#8puzzle" role="button">View details &raquo;</a></p>
-        </div>
-    </div>
+        <div style="flex-grow: 1;">
+            <div style="color: white; font-size: 26px;">Software Developer</h1>
+            <div style="color: white;">Full stack developer working on video streaming software.</p><br>
 
-    <hr class="featurette-divider content-spacer">
-
-    <span class="anchor" id="messenger"></span>
-    <div style="font-size: 16px;">
-
-
-        <div class="row bottom-spacer">
-
-         <div class="col-md-12">
-            <h3>VoIP & Instant Messenger <span class="tag-spacer"><span class="label label-default">Java</span> <span class="label label-warning">JavaFX</span> <span class="label label-success">CSS</span> </span></h3>
+            <ul class="nav-pills" style="list-style-type: none; padding: 0;">
+            <li><a class="btn btn-block btn-social btn-github left" href="http://www.github.com/wcpfeffer" style="width: 130px; margin: 2px; margin-left: 2px;" ><i class="fa fa-github"></i>My GitHub</a></li>
+            <li><a class="btn btn-block btn-social btn-linkedin" href="http://www.linkedin.com/in/wcpfeffer" style="width: 200px; margin: 2px; margin-left: 0px;"><i class="fa fa-linkedin"></i>Connect on LinkedIn</a></li>
+            </ul>
         </div>
 
     </div>
-
-    <div id="messenger-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#messenger-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#messenger-carousel" data-slide-to="1"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="images/messenger_login.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Login Window</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/messenger_loggedin.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Conversation Window</h3>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#messenger-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#messenger-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div> <!-- Carousel -->
-
-    <p></p>
-    <div>
-        <p>This roots of this project come from when I initially started programming. I was interested in learning about networking, and using client/server architectures, so I started developing a simple chat application in C#. Over time, this project evolved. It was transitioned to Java in order to have a wider support of systems, the backend components were restructured to be more robust and adhere to software practices learned in school, and the GUI was redesigned using a newer library called JavaFX. </p>
-        <p>In addition to the restructuring, I implemented peer to peer (P2P) calling using a technique called UDP hole-punching or NAT punchthrough. This technique allows two clients to connect to each other without the need to set up port forwarding. Two clients connect to a centralized server, where they expose their external ip and ports. The server relays this information to the clients wanting to connect to each other, and each individual client is able to connect using the ip/port of the opposing client that was provided by the server. This part of the project gave me a deeper understanding of networking, and exposed me to implementation details of various technologies used to create P2P connections.</p>
-        <img class="img-responsive" src="images/hole-punching.jpeg"/>
-        <p>I was also responsible for creating the database for this project, which primarily contains information about users. I added basic encryption to both the P2P calling and instant messaging using AES encryption.</p>
-
- </div>
-
-</div>
-
-<hr class="featurette-divider content-spacer">
-
-<span class="anchor" id="ProvReconstruction"></span>
-<div style="font-size: 16px;">
-
-    <div class="row bottom-spacer">
-        <div class="col-md-12">
-            <h3>Data Provenance Reconstruction (2015) <span class="tag-spacer"><span class="label label-default">Java</span> <span class="label label-warning">JavaFX</span></span> </h3>
-        </div>
-    </div>
-
-    <p>This tool aims to reconstruct data provenance records through semantic analysis of documents. It focuses on news article provenance links and provenance links between files in git repositories.  We assume this information has been lost, and attempt to recover provenance records as precisely as possible. </p>
-    <p>This project was based off of <a href="http://www.data2semantics.org/prov-reconstruction-challenge/">a challenge from the provenance research community</a>.</p>
-    <p>My part was a continuation of work done by graduate students. I improved the reconstruction process by improving the foundational code, and implementing semantic analysis techniques such as cosine similarity. </p>
-    <p>Developed a GUI and two automation tools to collect datasets to test the reconstruction process.</p>
-
-</div>
-
-<hr class="featurette-divider content-spacer">
-
-<span class="anchor" id="Bookstore"></span>
-<div style="font-size: 16px;">
-
-    <div class="row bottom-spacer">
-        <div class="col-md-12">
-            <h3>Book Store (2015)
-                <span class="tag-spacer"> 
-                    <a href="http://www.github.com/wcpfeffer/bookstore"><span class="label btn-github">GitHub</span></a>
-                    <span class="label label-default">Java / JSP</span> <span class="label label-success">CSS</span> 
-                    <span class="label label-danger">JavaScript</span> <span class="label label-primary">HTML</span> 
-                </span> </h3>
-        </div>
-    </div>
-
-    <div id="bootstore-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#bootstore-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="1"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="2"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="3"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="4"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="5"></li>
-            <li data-target="#bootstore-carousel" data-slide-to="6"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="images/admin_yearlyreport.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Sales Stats</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/add_book.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Inventory Control</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/previous_orders.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Customer Orders</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/home.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Landing Page</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/cart.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Cart Page</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/account.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>User Account</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/product_page.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Product Page</h3>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#bootstore-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#bootstore-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div> <!-- Carousel -->
-
-    <p></p>
-    <p>This website was part of my web programming class project. We were tasked with developing a website to sell books, and restricted to using a java backend (hosted by a tomcat server), JavaScript, HTML, and CSS. This was my first venture into web development, and exposed me to a web client/server architecture. </p>
-    <p>I implemented the backend using Java and JSP, including database implementation. The database was used for storing customer and book records. I was responsible for the front end UI design for all of the pages on the website. I created and tied in the following pages to the backend logic: pages for products, browsing, creating reviews, admin control, user shopping carts, and customer user account controls. This project was completed over the course of a few weeks, so some functionality was limited due to time constraints.</p>
-    <p>Due to restrictions of the project, no frameworks were used. </p>
-</div>
-
-<hr class="featurette-divider content-spacer">
-
-<span class="anchor" id="TraceIt"></span>
-<div style="font-size: 16px;">
-
-    <p>
-        <div class="row bottom-spacer">
-            <div class="col-md-12">
-                <h3>TraceIt (2014) <span class="label label-default tag-spacer">Java</span></h3>
-            </div>
-        </div>
-    </p>
-
-    <p>TraceIt is an android game that challenges users to trace shapes in a short time window. This was a game developed for my modern software development class. In this class, we had the opportunity to create software from ideas pitched from students. This gave me an opportunity to work in a highly collaborative environment, as well as work with mobile development for the first time. </p>
-    <p>I was responsible for the polygon creation and randomization process. I also helped collaborate on various issues and design decisions. </p>
-
-</div>
-
-
-
-<hr class="featurette-divider content-spacer">
-
-<span class="anchor" id="8puzzle"></span>
-<div style="font-size: 16px;">
-
-    <p>
-        <div class="row bottom-spacer">
-            <div class="col-md-12">
-                <h3>8 Puzzle Solver (2014)</a> 
-                    <span class="tag-spacer">
-                        <a href="http://www.github.com/wcpfeffer/8puzzlesolver"><span class="label btn-github">GitHub</span></a>
-                        <span class="label label-info">C#</span></h3>
-                    </span></h3>
-            </div>
-        </div>
-    </p>
-    <p>This project was designed to compare various heuristics for solving an 8 puzzle. </p>
-    <p> 
-        Heuristic implementation included:
-        <ul>
-            <li>Manhattan Distance</li>
-            <li>Misplaced Tiles</li>
-            <li>Breadth First Search</li>
-
-        </ul>
-    </p>
-    <p>It also implements state checking, which allows the program to not go down a path that has already been expanded.</p>
-
-</div>
-
-<hr class="featurette-divider content-spacer">
-
-<span class="anchor" id="ChangeTrac"></span>
-<div style="font-size: 16px;">
-
-
-    <div class="row bottom-spacer">
-        <div class="col-md-12">
-            <h3>ChangeTrac (2013-2014) <span class="label label-info tag-spacer">C#</span></h3>
-        </div>
-    </div>
-
-
-    <div id="changetrac-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="text-align: center;">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#changetrac-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#changetrac-carousel" data-slide-to="1"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="images/changetrac_banner.png" alt="...">
-            </div>
-            <div class="item">
-                <img src="images/changetrac_log.png" alt="...">
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#changetrac-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#changetrac-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div> <!-- Carousel -->
 
     <div>
+        hello
+    </div>
+
+    <footer>
         <p></p>
-        <p>ChangeTrac is a research tool developed to capture changes made to Microsoft Excel spreadsheets. This tool is a Microsoft Excel Add-in. It allows the user to record sessions in which they are actively changing data. During these recording sessions, a user can make notes on what they are changing. After a user finishes recording, they can view a log showing what exactly changed. This tool can also roll back these changes, and display the information in a visual format, making it easy to break down all the changes made during a recorded session.</p>
-        <p>I was responsible for adding additional features, collecting user feedback, and revising the tool based on the feedback received. I also implemented a multi-cell tracking technique that allowed tracking changes over multiple cells at the same time, and was responsible for refactoring the entire code base.</p>
-
-    </div>
-
-</div>
-
-<hr class="featurette-divider content-spacer">
-
-<footer>
-    <p></p>
-</footer>
-</div> <!-- /container -->
+    </footer>
 
     <style>
-        .carousel-inner > .item > img {
-            margin: 0 auto;
-        }
-        .carousel-control {
-            background-image: none !important;
-            color: black !important;
-            width: 5% !important;
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 
