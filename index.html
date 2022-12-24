@@ -58,9 +58,9 @@
             <img style="border-radius: 50%; max-width: 250px;" src="images/profile.jpeg"/>
         </div>
 
-        <div style="flex-grow: 1;">
-            <div style="color: white; font-size: 26px;">Software Developer</h1>
-            <div style="color: white;">Full stack developer working on video streaming software.</p><br>
+        <div class="flex-center">
+            <div class="text text-header">Software Developer</h1>
+            <div class="text text-content">Full stack developer working on video streaming software.</p><br>
 
             <ul class="nav-pills" style="list-style-type: none; padding: 0;">
             <li><a class="btn btn-block btn-social btn-github left" href="http://www.github.com/wcpfeffer" style="width: 130px; margin: 2px; margin-left: 2px;" ><i class="fa fa-github"></i>My GitHub</a></li>
@@ -83,6 +83,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .text {
+            color: white;
+        }
+        .text-header {
+            font-size: 42px; 
+            font-weight: bold;
+        }
+        .text-content {
+            font-size: 16px; 
+            font-weight: normal;
         }
     </style>
 
